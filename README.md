@@ -11,7 +11,7 @@ These assignments work seamlessly with the class and do not require any of the m
 
 To get started, you can start by either downloading a zip file of these assignments by clicking on the `Clone or download` button. If you have `git` installed on your system, you can clone this repository using : 
 
-    clone https://github.com/vrn25/Machine-Learning-Coursera/.git
+    git clone https://github.com/vrn25/Machine-Learning-Coursera.git
     
 Each assignment is contained in a separate folder. For example, assignment 1 is contained within the folder `Exercise1`. Each folder contains following : 
  - The assignment `jupyter` notebook, which has a `.ipynb` extension. All the solutions are included in it.
