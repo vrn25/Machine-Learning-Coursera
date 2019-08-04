@@ -7,19 +7,22 @@ This repositry contains the solutions to the python versions of the programming 
 
 These assignments work seamlessly with the class and do not require any of the materials published in the MATLAB assignments. The assignments use [Jupyter Notebook](http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html), which provides an intuitive flow easier than the original MATLAB/OCTAVE assignments.
 
-## Downloading the Assignments
+## Downloading the Solutions to the Assignments
 
 To get started, you can start by either downloading a zip file of these assignments by clicking on the `Clone or download` button. If you have `git` installed on your system, you can clone this repository using : 
 
-    clone https://github.com/vrn25/Coursera_ML/.git
+    clone https://github.com/vrn25/Machine-Learning-Coursera/.git
     
-Each assignment is contained in a separate folder. For example, assignment 1 is contained within the folder `Exercise1`. Each folder contains two files: 
+Each assignment is contained in a separate folder. For example, assignment 1 is contained within the folder `Exercise1`. Each folder contains following : 
  - The assignment `jupyter` notebook, which has a `.ipynb` extension. All the solutions are included in it.
- - A python module `utils.py` which contains some helper functions needed for the assignment. Functions within the `utils` module are called from the python notebook. No separate modification is required
- 
+ - Notebook checkpoints with extension `.ipynb`.
+ - A python module `utils.py` which contains some helper functions needed for the assignment. Functions within the `utils` module are called from the python notebook.
+ - A folder containing all the datasets required for the assignments. The file extension can be .txt or .mat according to the requirement in the notebook.
+ - A folder containing all the figures and graphs used in notebook.
+
 ## Requirements 
 
-These assignments has been tested and developed using the following libraries: 
+These assignments have been done using the following libraries: 
 
     - python==3.6.4
     - numpy==1.13.3
@@ -28,9 +31,11 @@ These assignments has been tested and developed using the following libraries:
     - jupyter==1.0.0
     - jupyter-client==5.0.1
     
-I recommend using at least these versions of the required libraries or later. Python 2 is not supported. 
+Using at least these versions is recommended. Python 2 is not supported. 
     
 ## Python Installation
+
+### Following steps can be used to set up machine learning environment on the PC and view/edit the notebook-
 
 It is highly recommended to use anaconda for installing python. [Click here](https://www.anaconda.com/download/) to go to Anaconda's download page. Make sure to download Python 3.6 version.
 If you are on a windows machine:
